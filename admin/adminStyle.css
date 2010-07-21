@@ -1,0 +1,81 @@
+/* Admin Specific Styles */
+
+img, a img {
+	border: none;
+	background: none;
+	text-decoration: none;
+}
+
+#sidebar ul li a {
+	padding: 3px 5px 3px 10px;
+}
+
+.BlogTable {
+	width: 95%;
+	border: 1px solid #545454;
+	margin: 15px 0;
+}
+
+.BlogTable a {
+	color: #8C6239;
+}
+
+.BlogTable th, .BlogTable td {
+	border-left: 1px solid #545454;
+	padding: 3px 5px;
+	font-size: .8em;
+}
+
+.BlogTable thead th {
+	font-weight: bold;
+	background: #545454;
+	color: #fff;
+}
+
+.Color1 {
+	background: #d8dbd2;
+}
+
+.Color1 td {
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
+}
+
+.Color2 {
+	background: #efe6e3;
+}
+
+table.GuestTable {
+/*	width: 45%;*/
+	width: 400px;
+	border: 1px solid #545454;
+	border-collapse: collapse;
+	margin: 10px;
+	text-align: left;
+	background: #fff;
+}
+/*
+table.GuestTable tbody {
+	max-height: 250px;
+	overflow: auto;
+}
+*/
+table.GuestTable th {
+	background: #545454;
+	color: #fff;
+}
+
+table.GuestTable th.heading {
+	font-size: 1.3em;
+}
+
+table.GuestTable td {
+	padding: 3px;
+	border: 1px solid #868686;
+}
+
+ul.tagFormList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

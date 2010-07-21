@@ -1,0 +1,110 @@
+/* Popup Stylesheet for MarynDesign.com */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	color: #825B2F;
+	font: normal 1em Trebuchet, Gill Sans, Helvetica, sans-serif;
+	background: #ececd4;
+}
+
+img {
+	border: none;
+	background: none;
+	text-decoration: none;
+}
+
+a, a:link, a:active, a:visited {
+	font-size: .9em;
+	color: #F06EA9;
+	text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+	color: #8c6239;
+	border-bottom: 2px solid #8c6239;
+}
+
+#wrapper {
+	width: 600px;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url(images/txtbg.gif) repeat-y;
+}
+
+#guts {
+	width: 570px;
+	margin-top: 10px;
+	padding: 0 15px 75px;
+}
+
+.row {
+	clear: both;
+	padding: 5px;
+	font-size: .8em;
+}
+
+.row .label {
+	float: left;
+	text-align: right;
+	width: 145px;
+	font-weight: bold;
+}
+
+.row .val {
+	float: left;
+	text-align: left;
+	width: 400px;
+	padding-left: 5px;
+}
+
+.Message {
+	font-weight: bold;
+	background: #fff;
+	padding: 5px 15px;
+}
+
+.errorMessage {
+	color: red;
+	border: 1px solid red;
+	background: #fff;
+	padding: 5px 15px;
+	margin: 10px 0;
+}
+
+.smalltext {
+	font-size: .7em;
+}
+
+.smalltext a {
+	font-size: 1.1em;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide, .off {
+	display: none;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+

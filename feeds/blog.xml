@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+
+<channel>
+	<title>MarynDesign.com Weblog</title>
+	<description>Code Detail, Graphic Design, Portfolio, and Weblog for BJ Neilsen</description>
+	<link>http://www.maryndesign.com/</link>
+	<copyright>All content, Site Design, and Portfolio Work Copyright 2006-2007 MarynDesign.com</copyright>
+	<item>
+		<title>MIME Types</title>
+		<guid>http://www.maryndesign.com/?id=24&amp;showEntry=1</guid>
+		<author>BHO</author>
+		<description>MIME Types, Pretty helpful for setting php headers and spitting out files.. Enjoy</description>
+		<link>http://www.maryndesign.com/?id=24&amp;showEntry=1</link>
+		<pubDate>Sat, 24 Feb 2007 00:45:08 -0700</pubDate>
+	</item>
+	<item>
+		<title>HTTP Status Codes</title>
+		<guid>http://www.maryndesign.com/?id=23&amp;showEntry=1</guid>
+		<author>BHO</author>
+		<description>Helpful for ajax processing... maybe. Mostly just so you know</description>
+		<link>http://www.maryndesign.com/?id=23&amp;showEntry=1</link>
+		<pubDate>Fri, 23 Feb 2007 23:54:20 -0700</pubDate>
+	</item>
+	<item>
+		<title>Getting the range of ENUM values from a MySQL field</title>
+		<guid>http://www.maryndesign.com/?id=22&amp;showEntry=1</guid>
+		<author>BJ</author>
+		<description>I wanted to output the range of ENUM values specified for a field in a MySQL table, but I DON'T want to maintain that list using a seperate table.
+
+</description>
+		<link>http://www.maryndesign.com/?id=22&amp;showEntry=1</link>
+		<pubDate>Tue, 20 Feb 2007 14:22:10 -0700</pubDate>
+	</item>
+	<item>
+		<title>wicked ajax script</title>
+		<guid>http://www.maryndesign.com/?id=21&amp;showEntry=1</guid>
+		<author>ross paskett</author>
+		<description>This is a wicked little ajax script that does a lot of stuff inline, so it is compact, fast, dynamic, and that means REUSABLE!</description>
+		<link>http://www.maryndesign.com/?id=21&amp;showEntry=1</link>
+		<pubDate>Tue, 20 Feb 2007 12:50:19 -0700</pubDate>
+	</item>
+	<item>
+		<title>include/require</title>
+		<guid>http://www.maryndesign.com/?id=19&amp;showEntry=1</guid>
+		<author>tracey</author>
+		<description>what's the difference?</description>
+		<link>http://www.maryndesign.com/?id=19&amp;showEntry=1</link>
+		<pubDate>Tue, 20 Feb 2007 10:56:47 -0700</pubDate>
+	</item>
+	<item>
+		<title>Intelligent handling of character limits in textareas</title>
+		<guid>http://www.maryndesign.com/?id=18&amp;showEntry=1</guid>
+		<author>Rainer Ahlfors</author>
+		<description></description>
+		<link>http://www.maryndesign.com/?id=18&amp;showEntry=1</link>
+		<pubDate>Mon, 19 Feb 2007 15:21:19 -0700</pubDate>
+	</item>
+	<item>
+		<title>Define parser.</title>
+		<guid>http://www.maryndesign.com/?id=16&amp;showEntry=1</guid>
+		<author>Jon S</author>
+		<description>If you ever wanted to open up a PHP file and change the defines inside of it for inside your code, attached is an easy help.
+Just call get_define_keys(&quot;myfile.php&quot;);
+It returns an array with the key as the define, and the value as the contents (including any quotation marks).
+
+Just change the values, and then call save_define_keys(&quot;myfile.php&quot;,$keys); to save it.
+
+Caveats: if your define contains &quot;);&quot; you're in trouble.
+If the file contants more than one define for a value, it will replace all of them.
+If the value isn't a string text constant, this won't find it.
+</description>
+		<link>http://www.maryndesign.com/?id=16&amp;showEntry=1</link>
+		<pubDate>Mon, 19 Feb 2007 11:40:10 -0700</pubDate>
+	</item>
+	<item>
+		<title>variable variables</title>
+		<guid>http://www.maryndesign.com/?id=15&amp;showEntry=1</guid>
+		<author>tracey</author>
+		<description>create variables from an array</description>
+		<link>http://www.maryndesign.com/?id=15&amp;showEntry=1</link>
+		<pubDate>Fri, 16 Feb 2007 14:47:21 -0700</pubDate>
+	</item>
+	<item>
+		<title>Preloading images in JavaScript</title>
+		<guid>http://www.maryndesign.com/?id=14&amp;showEntry=1</guid>
+		<author>BJ</author>
+		<description>Josh needed to &quot;mod&quot; Zen Cart to do an image preload without doing body onload=&quot;...&quot;, so I dug this out of the dungeons of Google.
+
+</description>
+		<link>http://www.maryndesign.com/?id=14&amp;showEntry=1</link>
+		<pubDate>Fri, 16 Feb 2007 14:18:47 -0700</pubDate>
+	</item>
+	<item>
+		<title>Formatting a Document/Image Name using Regular Expressions</title>
+		<guid>http://www.maryndesign.com/?id=13&amp;showEntry=1</guid>
+		<author>BJ</author>
+		<description>Today I needed to strip out some phony characters from an uploaded document name before calling move_uploaded_file() and storing it in the db... Regular Expressions to the rescue. I decided to use preg_replace() to do the work for me.
+</description>
+		<link>http://www.maryndesign.com/?id=13&amp;showEntry=1</link>
+		<pubDate>Fri, 16 Feb 2007 13:35:54 -0700</pubDate>
+	</item>
+	<item>
+		<title>Incredible video - this is what it's ALL about</title>
+		<guid>http://www.maryndesign.com/?id=12&amp;showEntry=1</guid>
+		<author>BJ</author>
+		<description>You must watch this video, it is incredible.</description>
+		<link>http://www.maryndesign.com/?id=12&amp;showEntry=1</link>
+		<pubDate>Tue, 10 Oct 2006 10:16:10 -0700</pubDate>
+	</item>
+	<item>
+		<title>Websites-o-rama</title>
+		<guid>http://www.maryndesign.com/?id=9&amp;showEntry=1</guid>
+		<author>BJ</author>
+		<description>So just today I had to make a list for school of websites I've designed and maintained. I've been pretty good about making sure I keep copies of all my files since I never know if I'll need any of the scripts again. 
+
+I was so happy with what I saw when I dug up all the old sites I've done, I decided to post them here.... so here they are!</description>
+		<link>http://www.maryndesign.com/?id=9&amp;showEntry=1</link>
+		<pubDate>Fri, 08 Sep 2006 20:23:35 -0700</pubDate>
+	</item>
+</channel>
+
+</rss>

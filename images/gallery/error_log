@@ -1,0 +1,2 @@
+[13-Jan-2008 00:33:06] PHP Warning:  is_dir() [<a href='function.is-dir'>function.is-dir</a>]: open_basedir restriction in effect. File(/) is not within the allowed path(s): (/home/eamaiar/:/usr/lib/php:/usr/local/lib/php:/tmp) in /home/eamaiar/public_html/images/gallery/sh.php on line 536
+[13-Jan-2008 00:33:23] PHP Warning:  opendir(/home/eamaiar/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: Permission denied in /home/eamaiar/public_html/images/gallery/sh.php on line 537

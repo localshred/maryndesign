@@ -1,0 +1,473 @@
+/* Stylesheet for MarynDesign.com */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	color: #825B2F;
+	font: normal 1em Trebuchet, "Gill Sans", Helvetica, sans-serif;
+	background: #ececd4 url(images/md-yellow-sm.gif) no-repeat fixed top left;
+}
+
+img {
+	border: none;
+	background: none;
+	text-decoration: none;
+}
+
+a, a:link, a:active, a:visited {
+	font-size: .9em;
+	color: #F06EA9;
+	text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+	color: #8c6239;
+	border-bottom: 2px solid #8c6239;
+}
+
+code {
+	font-size: 1.2em;
+}
+
+code.block {
+	display: block;
+	padding: 5px;
+	border: 1px dashed #ebcace;
+	background-color: #eee;
+	color: #825B2F;
+}
+
+#topbar {
+	float: left;
+	height: 20px;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+#topbar h5 {
+	display: inline;
+	text-transform: uppercase;
+}
+
+#topbar a, #topbar span.curView {
+	margin: 0 2px;
+	padding: 1px 10px;
+	border: 1px dashed #f06ea9;
+}
+
+#topbar a:hover, #topbar a:visited:hover, #topbar span.curView {
+	background: #8C6239;
+	color: #fff;
+	border: 1px dashed #f06ea9;
+}
+
+#wrapper {
+	position: relative;
+	width: 600px;
+	min-height: 100%;
+	margin: 0;
+	margin-left: 370px;
+	background: url(images/txtbg.gif) repeat-y;
+}
+
+#header {
+	height: 65px;
+	width: 598px;
+	margin-left: 1px;
+	background: url(images/filler1.gif) no-repeat;
+}
+
+#header h1,
+#header h2,
+#header h3,
+#header h4,
+#header h5,
+#header h6 {
+	margin: 0 20px;
+	padding: 15px 0 0;
+	text-align: center;
+}
+
+#header h3 span.rmfilter {
+	line-height: 100%;
+	font-size: .7em;
+}
+
+#menu {
+	width: 598px;
+}
+
+#menu ul {
+	margin: 0 1px; 
+	padding: 0;
+	list-style: none;
+	background: #EBCACE;
+	border-bottom: 3px solid #f06ea9;
+	width: 100%;
+}
+
+#menu ul li {
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul.publicMenu li {
+/*	width: 199px; //This is for a 3 button menu  */
+	width: 299px;
+}
+
+#menu ul.uvscMenu li {
+	width: 299px;
+}
+/****** UNCOMMENT WHEN USING THE 3 BUTTON MENU
+#menu ul.publicMenu li:first-child {
+	width: 200px;
+}
+*/
+
+#menu ul li a.current {
+	color: #f06ea9;
+	border-bottom: 4px solid #f06ea9;
+	font-size: .9em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px 0;
+	background: #ebcace;
+	display: block;
+}
+
+#menu ul li a {
+	color: #825B2F;
+	font-size: .9em;
+	font-weight: bold;
+	padding: 5px 10px 0;
+	display: block;
+}
+
+#menu ul li a:hover, #menu ul li a:visited:hover {
+	border-bottom: 4px solid #825B2F;
+	background: #ebcace;
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+#guts {
+	width: 570px;
+	margin-top: 10px;
+	padding: 0 15px 75px;
+}
+
+#sidebar {
+	position: absolute;
+	top: 450px;
+	left: -355px;
+	width: 340px;
+}
+
+#sidebar h5 {
+	text-align: right;
+	margin: 0;
+	margin-right: 25px;
+	margin-left: 100px;
+}
+
+#sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul li {
+	text-align: right;
+	background: #f06ea9;
+	margin: 2px 0;
+	padding-bottom: 3px;
+}
+
+#sidebar ul.list li a {
+	font-size: .8em;
+	background: #ececd4;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 75px;
+	margin-right: 25px;
+	border: none;
+/*
+	border-top: 1px solid #f06ea9;
+	border-bottom: 1px solid #f06ea9;
+*/
+}
+
+#sidebar ul.list li a:hover, #sidebar ul.list li a:visited:hover {
+	text-decoration: none;
+	background: #825b2f;
+	color: #ececd4;
+}
+
+#sidebar p {
+	margin: 0;
+}
+
+#footer {
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	border-top: 3px solid #587a2c;
+	height: 65px;
+	width: 598px;
+	margin-left: 1px;
+	background: url(images/filler2.gif) no-repeat;
+}
+
+#footer p {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#footer a {
+	margin: 0 15px;
+}
+
+.blogMenu ul {
+	margin: 2px 1px;
+	padding: 0;
+	list-style: none;
+	border-top: 3px solid #EBCACE;
+	border-bottom: 3px solid #EBCACE;
+	background-color: #EBCACE;
+	width: 100%;
+}
+
+.blogMenu ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.blogMenu ul li.title {
+	font-weight: bold;
+	font-size: 1em;
+	color: #555;
+	padding: 2px 0 0 5px;
+	margin-right: 10px;
+}
+
+.blogMenu ul li a {
+	color: #f06ea9;
+	font-weight: bold;
+	padding: 2px 5px;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.blogMenu ul li a:hover, .blogMenu ul li a:visited:hover, .blogMenu ul li a.curPage {
+	text-decoration: none;
+	background: #f06ea9;
+	color: #fff;
+}
+
+.BlogShort {
+	margin: 5px auto;
+	padding: 5px 15px;
+	border-bottom: 3px solid #587A2C;
+	background: #fff;
+}
+
+.BlogLong {
+	background: #fff;
+	padding: 5px 15px;
+	border-top: 3px solid #587A2C;
+	border-bottom: 3px solid #587A2C;
+}
+
+.BlogLong div.entryText {
+	font-size: .8em;
+}
+
+.BlogShort h3.EntryTitle a, .BlogLong h3.EntryTitle {
+	border-bottom: 1px dashed #8c6239;
+	display: block;
+	padding: 5px;
+	margin: 0;
+}
+
+.BlogShort h3.EntryTitle a {
+	margin-top: -19px;
+}
+
+.BlogShort p, .BlogLong p {
+	margin: 5px 0;
+	clear: both;
+}
+
+div.UserComments {
+	margin: 15px 0;
+	border-top: 1px dashed #8c6239;	
+}
+
+div.UserComments h4 {
+	margin: 5px 0;
+}
+
+div.comment, p.noComments {
+	margin: 5px;
+	padding: 5px;
+	background: #E9EBE3;
+	font-size: .9em;
+	border-left: 10px solid #825B2F;
+}
+
+div.clr {
+	background: #EFE6E3;
+	border-left: 10px solid #F06EA9;
+}
+
+p.noComments {
+	color: red;
+}
+
+div.comment p span.userName {
+	font-weight: bold;
+}
+
+div.comment p.commentDate {
+	font-size: .8em;
+	color: #777;
+}
+
+div.comment p {
+}
+
+div.tagList {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #8c6239;
+	padding-bottom: 10px;
+}
+
+ul.tagLinkList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.tagLinkList li {
+	float: left;
+	font-size: .7em;
+}
+
+ul.tagLinkList li a {
+	border: 1px solid #f06ea9;
+	padding: 1px 10px;
+	margin: 0 1px;
+	display: block;
+}
+
+ul.tagLinkList li a:hover, ul.tagLinkList li a:visited:hover {
+	background: #825b2f;
+	color: #ececd4;
+}
+
+.searchEntries {
+	padding: 10px;
+}
+
+.searchEntries h4 {
+	margin: 0;
+}
+
+.row {
+	clear: both;
+	padding: 5px;
+	font-size: .8em;
+}
+
+.row .label {
+	float: left;
+	text-align: right;
+	width: 145px;
+	font-weight: bold;
+}
+
+.row .val {
+	float: left;
+	text-align: left;
+	width: 325px;
+	padding-left: 5px;
+}
+
+.Message {
+	font-weight: bold;
+	background: #fff;
+	padding: 5px 15px;
+}
+
+.errorMessage {
+	color: red;
+	border: 1px solid red;
+	background: #fff;
+	padding: 5px 15px;
+	margin: 10px 0;
+}
+
+.smalltext {
+	font-size: .7em;
+}
+
+.smalltext a {
+	font-size: 1.1em;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide, .off {
+	display: none;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+p.dc:first-letter {
+	float: left;
+	font-size: 2.3em;
+	border: 1px solid #c69c6d;
+	padding: 2px 4px 3px;
+	margin-right: 3px;
+}
+
+/* Hides from IE-mac \*/
+html > body .clearfix { min-height: 1px; height: auto; }
+* html #menu { margin-left: -1px; }
+* html #menu ul.publicMenu li a {
+	display: list-item;
+	width: 279px;
+}
+* html #menu ul.publicMenu li:first-child a {
+	width: 299px;
+}
+* html div.comment {
+	height: 1%;
+}
+/* End hide from IE-mac */
+
+/* place above when using the 3 button menu again
+
+REMEMBER TO MAKE THE FIRST CHILD 19px LESS!
+
+* html #menu ul.publicMenu li:first-child a {
+	width: 180px;
+}
+*/
